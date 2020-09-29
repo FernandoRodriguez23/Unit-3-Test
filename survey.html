@@ -22,7 +22,7 @@
     </head>
     <body>
         <header>
-            <h1>Home Page</h1>
+            <h1>Survey</h1>
         </header>
         <form action="" method="post">
             <fieldset>
@@ -38,26 +38,28 @@
             </fieldset>
         </form>
 
-        <h3>Discription</h3>
-        <p><em>You will take a short quiz and survey here</em></p>
+        <h1>Thank you!</h1>
+        <p>We appriciate visiting out site. <em>Without users like your we could not continue</em><br>
+        <strong>Please</strong> take a minute to fill out this survey and tell us how we can get better.</p>
         <main>
             <form action="" method="post">
                 <fieldset>
-                    <legend><strong>Users Information</strong></legend>
-                    <h3>Login</h3>
+                    <legend>Survey</legend>
 
                     <ul>
-                        <li><lable for="UserName">UserName</lable>
-                        <input type="text" id="UserName" name="user.username"></li>
-        
-                        <li><lable for="password">Password</lable>
-                        <input type="password" id="password" name="user.password"></li>
+                    <li><label for="name">Name</label>
+                    <input type="text" name="name" id="name"></li><br>
+                    <li><label for="Email">Email</label>
+                    <input type="text" name="Email" id="Email"></li><br>
+                    <li><label for="PhoneNumber">Phone Number</label>
+                    <input type="text" name="PhoneNumber" id="PhoneNumber"></li><br>
+                    <li><label for="critic">Please tell us on anything we can imporve on</label><br>
+                    <textarea name="critic" id="critic" col="30" rows="10"></textarea></li>
 
-                        <li><label for="UserIDNumber">User ID Number</label>
-                        <input type="text" name="UserIDNumber" id="UserIDNumber"></li>
 
-                        <li><label for="date">Toaday's Date</label>
-                        <input type="text" name="date" id="date"></li>
+
+
+
                     </ul>
                     <label for="submit"></label>
                     <input type="submit" value="submit">
